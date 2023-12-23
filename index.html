@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="top-bar">
         <div class="container">
-            <div class="top-bar">
+            <div class="top-bar-content">
                 <div class="header-logo">Header Logo</div>
-            </div>
-            <div class="top-menu">
-                <ul class="menu-items">
-                    <li class="menu-item">header link one</li>
-                    <li class="menu-item">header link two</li>
-                    <li class="menu-item">header link three</li>
-                </ul>
+                <div class="top-menu">
+                    <div class="menu-items">
+                        <a class="menu-item">header link one</a>
+                        <a class="menu-item">header link two</a>
+                        <a class="menu-item">header link three</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div>
+    <section class="hero-section">
         <div class="container">
             <div class="side-by-side-contnet">
                 <div class="left side">
@@ -29,10 +30,53 @@
                     <button>Sign up</button>
                 </div>
                 <div class="right side">
-
+                    <img src="images/monkey_hero_img.jpg">
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Some random information.</h2>
+            <div class="random-item">
+                <img src="">
+                <p class="random-item-description">This is some subtext under an illustration of an image</p>
+            </div>
+            <div class="random-item">
+                <img src="">
+                <p class="random-item-description">This is some subtext under an illustration of an image</p>
+            </div>
+            <div class="random-item">
+                <img src="">
+                <p class="random-item-description">This is some subtext under an illustration of an image</p>
+            </div>
+            <div class="random-item">
+                <img src="">
+                <p class="random-item-description">This is some subtext under an illustration of an image</p>
+            </div>
+        </div>
+    </section>
+    <section class="grey-section">
+        <div class="container">
+            <div class="quote">
+                <p class="quote-text">“The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So, write and draw and build and play and dance and live only as you can.” </p>
+                <p class="quote-author">– Neil Gaiman</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="blue-cta-wrapper">
+                <div class="blue-cta-content">
+                    <h3 class="h3-white">call to action! It's time!</h3>
+                    <p class="small-white-text">Sign up for our product by clicking that button on the right</p>
+                </div>
+                <button class="secondary-negative">Sign up</button>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Copyright © The Odin Project 2023</p>
     </div>
 </body>
 </html>
