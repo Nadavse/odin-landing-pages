@@ -1,1 +1,1 @@
-# odin-landing-pages
+This is the odin lanidng pages project practice
